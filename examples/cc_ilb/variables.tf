@@ -63,6 +63,7 @@ variable "ccvm_instance_type" {
   default     = "n2-standard-2"
   validation {
     condition = (
+      var.ccvm_instance_type == "c2-standard-4" ||
       var.ccvm_instance_type == "e2-standard-2" ||
       var.ccvm_instance_type == "e2-standard-4" ||
       var.ccvm_instance_type == "e2-standard-8" ||

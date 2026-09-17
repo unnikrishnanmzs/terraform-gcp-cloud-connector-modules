@@ -76,6 +76,7 @@
 ## 9. Cloud Connector GCP Compute Instance size selection. Uncomment ccvm_instance_type line with desired vm size to change.
 ##    (Default: n2-standard-2)
 
+#ccvm_instance_type                         = "c2-standard-4"
 #ccvm_instance_type                         = "n2-standard-2"
 #ccvm_instance_type                         = "e2-standard-2"
 #ccvm_instance_type                         = "n2d-standard-2"
